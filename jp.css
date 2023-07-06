@@ -1,0 +1,100 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html , body {
+      height: 100%; 
+      width: 100%;
+  }
+#main 
+{
+    height: 100%;
+    width: 100;
+    background-color: black;
+}
+#nav{
+ height: 200px;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+#nav2 {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+#nav h3 {
+    font-size: 55px;
+    color: cornsilk;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+#nav2 h3 {
+ font-size: 55px;
+ color: cornsilk;
+ padding-right: 50px;
+ text-transform: uppercase;
+}
+#main h1 {
+  font-size: 250px;
+  font-weight: 100;
+  line-height: 180px;
+  text-transform: uppercase;
+  width: 40%;
+  margin-left: 30%;
+  color: red;
+  position: relative;
+  z-index: 99;
+}
+#main h1:nth-child(2){
+    margin-top: 900px;
+    margin-right: 1200px;
+}
+#main h1:nth-child(3){
+    text-align: center;
+    margin-right: 200px;
+}
+#main h1:nth-child(4){
+    text-align: center;
+}
+
+#main img {
+
+    height: 600px;
+    width: 420px;
+    object-fit: cover;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+#main img:nth-child(5){
+  rotate: 10deg;  
+}
+#main img:nth-child(6){
+    rotate: 17deg;
+}
+#main button {
+ background-color: lightcoral;
+ font-size: 25px;
+ border-radius: 50px;
+ position: relative;
+ top: 10%;
+ left: 45%;
+ padding: 30px 60px;
+ font-weight: 900;
+text-transform: uppercase;
+}
+#main p1 {
+   position: relative;
+   top: 0%;
+   left: 70%;
+   color: white;
+   text-transform: capitalize;
+   font-size: 80px;
+   line-height: 100px;
+   color: lightseagreen;
+}
+
+
